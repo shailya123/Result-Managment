@@ -1,0 +1,25 @@
+.header{
+    background-color: green;
+    height:50px;
+    text-align: center;
+    justify-content: center;
+    padding-top:10px;
+}
+label{
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    align-items: left;
+    margin-left: 500px;
+}
+input[type=text]
+{
+margin-left:30px;
+width:20%
+}
+input[type=number]
+{
+margin-left:30px;
+width:20%
+}

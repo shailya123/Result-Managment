@@ -1,0 +1,21 @@
+<div class="header">
+    <span style="font-size:25px; font-weight:bold; padding-top: 12px;">Result Management System</span>
+    <span style="float:right;"><a routerLink=""><button style=" margin-right:10px;" class="btn btn-secondary">logout</button></a></span>
+    </div>
+<br><br><br><br><br>
+<h2 style="text-align: center;">Find Result</h2>
+<br><br>
+<div [formGroup]="userForm">
+<label for="roll">
+    Roll No. :
+</label>
+<input type="number" name="roll" id="roll" value="roll" formControlName="roll" matInput required ><br><br>
+<label for="name">
+    Name :
+</label>
+<input type="text" name="name" id="name" formControlName="name" matInput required>
+<br><br><br><br>
+<div style="float:right; margin-right:500px;">
+    <button class="btn btn-primary" (click)="search()">Search</button>
+    <button class="btn btn-danger" style="margin-left:10px;" (click)="clear()">clear</button>
+</div>

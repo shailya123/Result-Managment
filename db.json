@@ -1,0 +1,56 @@
+{
+  "studentDataList": [
+    {
+      "roll": 6019505,
+      "name": "shailya",
+      "dob": "1999-05-04",
+      "score": 460,
+      "id": 6
+    },
+    {
+      "roll": 6109497,
+      "name": "aman",
+      "dob": "1999-02-14",
+      "score": 459,
+      "id": 9
+    },
+    {
+      "roll": 6019465,
+      "name": "tarun",
+      "dob": "1999-03-03",
+      "score": 444,
+      "id": 11
+    },
+    {
+      "roll": 6019502,
+      "name": "shachi",
+      "dob": "1999-08-01",
+      "score": 490,
+      "id": 13
+    },
+    {
+      "roll": 6019507,
+      "name": "shlok",
+      "dob": "1998-11-04",
+      "score": 457,
+      "id": 14
+    },
+    {
+      "roll": 6019506,
+      "name": "shail",
+      "dob": "1998-10-07",
+      "score": 427,
+      "id": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

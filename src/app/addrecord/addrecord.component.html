@@ -1,0 +1,33 @@
+<div class="header">
+    <span style="font-size:25px; font-weight:bold; padding-top: 12px;">Result Management System</span>
+    <span style="float:right;"><a routerLink=""><button style=" margin-right:10px;"
+                class="btn btn-secondary">logout</button></a></span>
+</div>
+<br><br>
+<a routerLink="/teacher" style="margin-left:20px; font-size:20px">Back</a>
+<br><br><br>
+<h2 style="margin-left: 70px;"> Add New Record</h2>
+<br>
+<form [formGroup]="addOfRecord">
+    <label for="roll">
+        Roll No.
+    </label>
+    <input type="number" name="roll" id="roll" value="roll" formControlName="roll" matInput required><br><br>
+    <label for="name">
+        Name
+    </label>
+    <input type="text" name="name" id="name" formControlName="name" matInput required><br><br>
+    <label for="dob">
+        Date Of Birth
+    </label>
+    <input type="date" name="dob" id="dob" value="dob" formControlName="dob" matInput required><br><br>
+    <label for="score">
+        score
+    </label>
+    <input type="number" name="score" id="score" value="score" formControlName="score" matInput required><br><br>
+</form>
+    <br><br>
+    <div style="float:right; margin-right:120px;">
+        <button class="btn btn-primary"(click)="saveRecord();">{{actionButton}}</button>
+        <button class="btn btn-danger" style="margin-left:10px;" (click)="cancelRecord()">clear</button>
+    </div>

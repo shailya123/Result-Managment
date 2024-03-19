@@ -1,0 +1,14 @@
+<div class="header">
+    <span style="font-size:25px; font-weight:bold; padding-top: 12px;">Result Management System</span>
+    <span style="float:right;"><a routerLink=""><button style=" margin-right:10px;" class="btn btn-secondary">logout</button></a></span>
+    </div>
+    <br><br><br>
+    <a routerLink="/student" style="margin-left:20px; font-size:20px">Back</a>
+<br><br><br>
+<h2 style="text-align: center;">Result</h2>
+<div class="container">
+    <p> Roll no:&nbsp;&nbsp;&nbsp;&nbsp;{{data[0].roll}}</p><br>
+    <p> Name:&nbsp;&nbsp;&nbsp;&nbsp;{{data[0].name}}</p><br>
+    <p>Date of birth:&nbsp;&nbsp;&nbsp;&nbsp;{{data[0].dob}}</p><br>
+    <p>Score:&nbsp;&nbsp;&nbsp;&nbsp;{{data[0].score}}</p><br>
+</div>
